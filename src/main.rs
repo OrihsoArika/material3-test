@@ -1,7 +1,10 @@
+use clap::{Args, Parser, Subcommand};
 use std::{
-    env::{self},
+    env::{self, args},
     fs::File,
     io::Write,
+    path::PathBuf,
+    process::Command,
 };
 
 use material_colors::{
@@ -12,10 +15,87 @@ use material_colors::{
 };
 use serde_json;
 
+#[derive(Parser, Debug)]
+#[command(name = "Material Design color generator")]
+#[command(about = "A program for generating Googles Material Design 3 colorshemes.")]
+#[command(version = "0.0.1", long_about = None)]
+struct Arguments {
+    // path to image
+    #[arg(value_name = "IMAGE")]
+    image_path: PathBuf,
+
+    #[arg(short, long)]
+    variant: Option<String>,
+
+    #[arg(short, long)]
+    scheme: Option<String>,
+}
+
 fn main() {
-    let exec_arguments: Vec<String> = env::args().collect();
+    let args = Arguments::parse();
+
+    let username = env::var("USER").expect("couldn't read environment variable `$USER`.");
+
+    let is_dark = true;
+    let variant = Variant::TonalSpot;
+    let waybar_config_dir = "/home/".to_owned() + &username.to_owned();
+
+    println!("args {:?}", args);
+
+    if is_image(&args.image_path).unwrap() {
+        run(
+            args.image_path.display().to_string(),
+            waybar_config_dir,
+            is_dark,
+            variant,
+        );
+    } else {
+        println!("not an image");
+    }
+}
+
+fn is_image(path: &PathBuf) -> Result<bool, &str> {
+    if path.is_dir() {
+        Err("the given path is a directory")
+    } else if !path.exists() {
+        Err("the given path is a does not exist")
+    } else {
+        match path.extension() {
+            Some(ext) => {
+                if ext == "jpg" || ext == "jpeg" {
+                    Ok(true)
+                } else if ext == "png" || ext == "webp" {
+                    Ok(true)
+                } else {
+                    Ok(false)
+                }
+            }
+            None => {
+                Err("couldn't parse file extension, is either empty or something else happened")
+            }
+        }
+    }
+}
+
+fn parse_variant(variant_string: String) -> Result<Variant, &'static str> {
+    match variant_string.as_str() {
+        "content" => Ok(Variant::Content),
+        "expresive" => Ok(Variant::Expressive),
+        "monochrome" => Ok(Variant::Monochrome),
+        "neutral" => Ok(Variant::Neutral),
+        "tonal_spot" => Ok(Variant::TonalSpot),
+        "vibrant" => Ok(Variant::Vibrant),
+        "fidelity" => Ok(Variant::Fidelity),
+        "fruit_salad" => Ok(Variant::FruitSalad),
+        "rainbow" => Ok(Variant::Rainbow),
+        _ => Err("no variant was given"),
+    }
+}
+
+fn check_args(exec_arguments: Vec<String>) {
     let username = env::var("USER").unwrap();
-    let home_dir = env::var("HOME").unwrap_or_else(|_| String::from("/home/".to_owned() + &username));
+    let home_dir =
+        env::var("HOME").unwrap_or_else(|_| String::from("/home/".to_owned() + &username));
 
     if exec_arguments.len() == 1 {
         println!("No argument was given");
@@ -64,8 +144,6 @@ fn main() {
             run(img_path, waybar_config_dir, is_dark, variant);
         }
     }
-
-    println!("Finished!");
 }
 
 fn run(img_path: String, waybar_config_dir: String, is_dark: bool, variant: Variant) {
