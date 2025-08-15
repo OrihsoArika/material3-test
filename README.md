@@ -1,1 +1,1 @@
-# Development branch for template parsing
+# Development branch for parsing template files
