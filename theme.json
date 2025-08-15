@@ -9,9 +9,9 @@
     "light": {
       "primary": {
         "alpha": 255,
-        "red": 51,
-        "green": 47,
-        "blue": 66
+        "red": 0,
+        "green": 107,
+        "blue": 88
       },
       "on_primary": {
         "alpha": 255,
@@ -21,51 +21,51 @@
       },
       "primary_container": {
         "alpha": 255,
-        "red": 74,
-        "green": 69,
-        "blue": 89
+        "red": 150,
+        "green": 244,
+        "blue": 217
       },
       "on_primary_container": {
         "alpha": 255,
-        "red": 230,
-        "green": 222,
-        "blue": 247
+        "red": 0,
+        "green": 32,
+        "blue": 25
       },
       "inverse_primary": {
         "alpha": 255,
-        "red": 203,
-        "green": 195,
-        "blue": 219
+        "red": 122,
+        "green": 215,
+        "blue": 190
       },
       "primary_fixed": {
         "alpha": 255,
-        "red": 231,
-        "green": 223,
-        "blue": 248
+        "red": 150,
+        "green": 244,
+        "blue": 217
       },
       "primary_fixed_dim": {
         "alpha": 255,
-        "red": 203,
-        "green": 195,
-        "blue": 219
+        "red": 122,
+        "green": 215,
+        "blue": 190
       },
       "on_primary_fixed": {
         "alpha": 255,
-        "red": 29,
-        "green": 25,
-        "blue": 43
+        "red": 0,
+        "green": 32,
+        "blue": 25
       },
       "on_primary_fixed_variant": {
         "alpha": 255,
-        "red": 73,
-        "green": 68,
-        "blue": 88
+        "red": 0,
+        "green": 81,
+        "blue": 66
       },
       "secondary": {
         "alpha": 255,
-        "red": 96,
-        "green": 93,
-        "blue": 102
+        "red": 120,
+        "green": 83,
+        "blue": 107
       },
       "on_secondary": {
         "alpha": 255,
@@ -75,45 +75,45 @@
       },
       "secondary_container": {
         "alpha": 255,
-        "red": 224,
-        "green": 219,
-        "blue": 230
+        "red": 255,
+        "green": 215,
+        "blue": 238
       },
       "on_secondary_container": {
         "alpha": 255,
-        "red": 70,
-        "green": 67,
-        "blue": 76
+        "red": 46,
+        "green": 17,
+        "blue": 38
       },
       "secondary_fixed": {
         "alpha": 255,
-        "red": 230,
-        "green": 224,
-        "blue": 235
+        "red": 255,
+        "green": 215,
+        "blue": 238
       },
       "secondary_fixed_dim": {
         "alpha": 255,
-        "red": 202,
-        "green": 196,
-        "blue": 207
+        "red": 231,
+        "green": 185,
+        "blue": 213
       },
       "on_secondary_fixed": {
         "alpha": 255,
-        "red": 28,
-        "green": 26,
-        "blue": 34
+        "red": 46,
+        "green": 17,
+        "blue": 38
       },
       "on_secondary_fixed_variant": {
         "alpha": 255,
-        "red": 72,
-        "green": 69,
-        "blue": 78
+        "red": 94,
+        "green": 60,
+        "blue": 83
       },
       "tertiary": {
         "alpha": 255,
-        "red": 55,
-        "green": 50,
-        "blue": 24
+        "red": 113,
+        "green": 83,
+        "blue": 129
       },
       "on_tertiary": {
         "alpha": 255,
@@ -123,39 +123,39 @@
       },
       "tertiary_container": {
         "alpha": 255,
-        "red": 78,
-        "green": 72,
-        "blue": 44
+        "red": 245,
+        "green": 217,
+        "blue": 255
       },
       "on_tertiary_container": {
         "alpha": 255,
-        "red": 236,
-        "green": 226,
-        "blue": 188
+        "red": 42,
+        "green": 15,
+        "blue": 58
       },
       "tertiary_fixed": {
         "alpha": 255,
-        "red": 237,
-        "green": 227,
-        "blue": 189
+        "red": 245,
+        "green": 217,
+        "blue": 255
       },
       "tertiary_fixed_dim": {
         "alpha": 255,
-        "red": 208,
-        "green": 199,
-        "blue": 162
+        "red": 222,
+        "green": 186,
+        "blue": 239
       },
       "on_tertiary_fixed": {
         "alpha": 255,
-        "red": 32,
-        "green": 28,
-        "blue": 5
+        "red": 42,
+        "green": 15,
+        "blue": 58
       },
       "on_tertiary_fixed_variant": {
         "alpha": 255,
-        "red": 77,
-        "green": 71,
-        "blue": 43
+        "red": 88,
+        "green": 59,
+        "blue": 104
       },
       "error": {
         "alpha": 255,
@@ -183,27 +183,27 @@
       },
       "surface_dim": {
         "alpha": 255,
-        "red": 221,
-        "green": 217,
-        "blue": 219
+        "red": 225,
+        "green": 215,
+        "blue": 226
       },
       "surface": {
         "alpha": 255,
-        "red": 253,
-        "green": 248,
-        "blue": 250
+        "red": 255,
+        "green": 247,
+        "blue": 254
       },
       "surface_tint": {
         "alpha": 255,
-        "red": 97,
-        "green": 91,
-        "blue": 112
+        "red": 0,
+        "green": 107,
+        "blue": 88
       },
       "surface_bright": {
         "alpha": 255,
-        "red": 253,
-        "green": 248,
-        "blue": 250
+        "red": 255,
+        "green": 247,
+        "blue": 254
       },
       "surface_container_lowest": {
         "alpha": 255,
@@ -213,81 +213,81 @@
       },
       "surface_container_low": {
         "alpha": 255,
-        "red": 247,
-        "green": 242,
-        "blue": 244
+        "red": 251,
+        "green": 240,
+        "blue": 252
       },
       "surface_container": {
         "alpha": 255,
-        "red": 241,
-        "green": 237,
-        "blue": 238
+        "red": 245,
+        "green": 235,
+        "blue": 246
       },
       "surface_container_high": {
         "alpha": 255,
-        "red": 235,
-        "green": 231,
-        "blue": 233
+        "red": 239,
+        "green": 229,
+        "blue": 240
       },
       "surface_container_highest": {
         "alpha": 255,
-        "red": 230,
-        "green": 225,
-        "blue": 227
+        "red": 233,
+        "green": 223,
+        "blue": 234
       },
       "on_surface": {
         "alpha": 255,
-        "red": 28,
-        "green": 27,
-        "blue": 29
+        "red": 30,
+        "green": 26,
+        "blue": 34
       },
       "on_surface_variant": {
         "alpha": 255,
-        "red": 72,
-        "green": 70,
-        "blue": 76
+        "red": 76,
+        "green": 68,
+        "blue": 82
       },
       "outline": {
         "alpha": 255,
-        "red": 121,
-        "green": 118,
-        "blue": 125
+        "red": 126,
+        "green": 116,
+        "blue": 131
       },
       "outline_variant": {
         "alpha": 255,
-        "red": 202,
-        "green": 197,
-        "blue": 204
+        "red": 207,
+        "green": 194,
+        "blue": 212
       },
       "inverse_surface": {
         "alpha": 255,
-        "red": 49,
-        "green": 48,
-        "blue": 49
+        "red": 52,
+        "green": 47,
+        "blue": 55
       },
       "inverse_on_surface": {
         "alpha": 255,
-        "red": 244,
-        "green": 239,
-        "blue": 241
+        "red": 248,
+        "green": 238,
+        "blue": 249
       },
       "surface_variant": {
         "alpha": 255,
-        "red": 230,
-        "green": 225,
-        "blue": 233
+        "red": 235,
+        "green": 222,
+        "blue": 240
       },
       "background": {
         "alpha": 255,
-        "red": 253,
-        "green": 248,
-        "blue": 250
+        "red": 255,
+        "green": 247,
+        "blue": 254
       },
       "on_background": {
         "alpha": 255,
-        "red": 28,
-        "green": 27,
-        "blue": 29
+        "red": 30,
+        "green": 26,
+        "blue": 34
       },
       "shadow": {
         "alpha": 255,
@@ -305,153 +305,153 @@
     "dark": {
       "primary": {
         "alpha": 255,
-        "red": 203,
-        "green": 195,
-        "blue": 219
+        "red": 122,
+        "green": 215,
+        "blue": 190
       },
       "on_primary": {
         "alpha": 255,
-        "red": 50,
-        "green": 46,
-        "blue": 65
+        "red": 0,
+        "green": 56,
+        "blue": 45
       },
       "primary_container": {
         "alpha": 255,
-        "red": 74,
-        "green": 69,
-        "blue": 89
+        "red": 0,
+        "green": 81,
+        "blue": 66
       },
       "on_primary_container": {
         "alpha": 255,
-        "red": 230,
-        "green": 222,
-        "blue": 247
+        "red": 150,
+        "green": 244,
+        "blue": 217
       },
       "inverse_primary": {
         "alpha": 255,
-        "red": 97,
-        "green": 91,
-        "blue": 112
+        "red": 0,
+        "green": 107,
+        "blue": 88
       },
       "primary_fixed": {
         "alpha": 255,
-        "red": 231,
-        "green": 223,
-        "blue": 248
+        "red": 150,
+        "green": 244,
+        "blue": 217
       },
       "primary_fixed_dim": {
         "alpha": 255,
-        "red": 203,
-        "green": 195,
-        "blue": 219
+        "red": 122,
+        "green": 215,
+        "blue": 190
       },
       "on_primary_fixed": {
         "alpha": 255,
-        "red": 29,
-        "green": 25,
-        "blue": 43
+        "red": 0,
+        "green": 32,
+        "blue": 25
       },
       "on_primary_fixed_variant": {
         "alpha": 255,
-        "red": 73,
-        "green": 68,
-        "blue": 88
+        "red": 0,
+        "green": 81,
+        "blue": 66
       },
       "secondary": {
         "alpha": 255,
-        "red": 202,
-        "green": 196,
-        "blue": 207
+        "red": 231,
+        "green": 185,
+        "blue": 213
       },
       "on_secondary": {
         "alpha": 255,
-        "red": 50,
-        "green": 47,
-        "blue": 55
+        "red": 69,
+        "green": 38,
+        "blue": 60
       },
       "secondary_container": {
         "alpha": 255,
-        "red": 72,
-        "green": 69,
-        "blue": 78
+        "red": 94,
+        "green": 60,
+        "blue": 83
       },
       "on_secondary_container": {
         "alpha": 255,
-        "red": 228,
-        "green": 222,
-        "blue": 233
+        "red": 255,
+        "green": 215,
+        "blue": 238
       },
       "secondary_fixed": {
         "alpha": 255,
-        "red": 230,
-        "green": 224,
-        "blue": 235
+        "red": 255,
+        "green": 215,
+        "blue": 238
       },
       "secondary_fixed_dim": {
         "alpha": 255,
-        "red": 202,
-        "green": 196,
-        "blue": 207
+        "red": 231,
+        "green": 185,
+        "blue": 213
       },
       "on_secondary_fixed": {
         "alpha": 255,
-        "red": 28,
-        "green": 26,
-        "blue": 34
+        "red": 46,
+        "green": 17,
+        "blue": 38
       },
       "on_secondary_fixed_variant": {
         "alpha": 255,
-        "red": 72,
-        "green": 69,
-        "blue": 78
+        "red": 94,
+        "green": 60,
+        "blue": 83
       },
       "tertiary": {
         "alpha": 255,
-        "red": 208,
-        "green": 199,
-        "blue": 162
+        "red": 222,
+        "green": 186,
+        "blue": 239
       },
       "on_tertiary": {
         "alpha": 255,
-        "red": 54,
-        "green": 48,
-        "blue": 23
+        "red": 64,
+        "green": 37,
+        "blue": 80
       },
       "tertiary_container": {
         "alpha": 255,
-        "red": 78,
-        "green": 72,
-        "blue": 44
+        "red": 88,
+        "green": 59,
+        "blue": 104
       },
       "on_tertiary_container": {
         "alpha": 255,
-        "red": 236,
-        "green": 226,
-        "blue": 188
+        "red": 245,
+        "green": 217,
+        "blue": 255
       },
       "tertiary_fixed": {
         "alpha": 255,
-        "red": 237,
-        "green": 227,
-        "blue": 189
+        "red": 245,
+        "green": 217,
+        "blue": 255
       },
       "tertiary_fixed_dim": {
         "alpha": 255,
-        "red": 208,
-        "green": 199,
-        "blue": 162
+        "red": 222,
+        "green": 186,
+        "blue": 239
       },
       "on_tertiary_fixed": {
         "alpha": 255,
-        "red": 32,
-        "green": 28,
-        "blue": 5
+        "red": 42,
+        "green": 15,
+        "blue": 58
       },
       "on_tertiary_fixed_variant": {
         "alpha": 255,
-        "red": 77,
-        "green": 71,
-        "blue": 43
+        "red": 88,
+        "green": 59,
+        "blue": 104
       },
       "error": {
         "alpha": 255,
@@ -479,111 +479,111 @@
       },
       "surface_dim": {
         "alpha": 255,
-        "red": 20,
-        "green": 19,
-        "blue": 20
+        "red": 22,
+        "green": 18,
+        "blue": 25
       },
       "surface": {
         "alpha": 255,
-        "red": 20,
-        "green": 19,
-        "blue": 20
+        "red": 22,
+        "green": 18,
+        "blue": 25
       },
       "surface_tint": {
         "alpha": 255,
-        "red": 203,
-        "green": 195,
-        "blue": 219
+        "red": 122,
+        "green": 215,
+        "blue": 190
       },
       "surface_bright": {
         "alpha": 255,
-        "red": 58,
-        "green": 57,
-        "blue": 58
+        "red": 61,
+        "green": 55,
+        "blue": 64
       },
       "surface_container_lowest": {
         "alpha": 255,
-        "red": 15,
-        "green": 14,
-        "blue": 15
+        "red": 17,
+        "green": 13,
+        "blue": 20
       },
       "surface_container_low": {
         "alpha": 255,
-        "red": 28,
-        "green": 27,
-        "blue": 29
+        "red": 30,
+        "green": 26,
+        "blue": 34
       },
       "surface_container": {
         "alpha": 255,
-        "red": 32,
-        "green": 31,
-        "blue": 33
+        "red": 35,
+        "green": 30,
+        "blue": 38
       },
       "surface_container_high": {
         "alpha": 255,
-        "red": 43,
-        "green": 41,
-        "blue": 43
+        "red": 45,
+        "green": 40,
+        "blue": 48
       },
       "surface_container_highest": {
         "alpha": 255,
-        "red": 54,
-        "green": 52,
-        "blue": 54
+        "red": 56,
+        "green": 51,
+        "blue": 59
       },
       "on_surface": {
         "alpha": 255,
-        "red": 230,
-        "green": 225,
-        "blue": 227
+        "red": 233,
+        "green": 223,
+        "blue": 234
       },
       "on_surface_variant": {
         "alpha": 255,
-        "red": 202,
-        "green": 197,
-        "blue": 204
+        "red": 207,
+        "green": 194,
+        "blue": 212
       },
       "outline": {
         "alpha": 255,
-        "red": 147,
-        "green": 143,
-        "blue": 150
+        "red": 152,
+        "green": 141,
+        "blue": 157
       },
       "outline_variant": {
         "alpha": 255,
-        "red": 72,
-        "green": 70,
-        "blue": 76
+        "red": 76,
+        "green": 68,
+        "blue": 82
       },
       "inverse_surface": {
         "alpha": 255,
-        "red": 230,
-        "green": 225,
-        "blue": 227
+        "red": 233,
+        "green": 223,
+        "blue": 234
       },
       "inverse_on_surface": {
         "alpha": 255,
-        "red": 49,
-        "green": 48,
-        "blue": 49
+        "red": 52,
+        "green": 47,
+        "blue": 55
       },
       "surface_variant": {
         "alpha": 255,
-        "red": 72,
-        "green": 70,
-        "blue": 76
+        "red": 76,
+        "green": 68,
+        "blue": 82
       },
       "background": {
         "alpha": 255,
-        "red": 20,
-        "green": 19,
-        "blue": 20
+        "red": 22,
+        "green": 18,
+        "blue": 25
       },
       "on_background": {
         "alpha": 255,
-        "red": 230,
-        "green": 225,
-        "blue": 227
+        "red": 233,
+        "green": 223,
+        "blue": 234
       },
       "shadow": {
         "alpha": 255,
